@@ -85,7 +85,6 @@ public class Apriori {
 			// END OF IMPROVEMENT
 
 			items = getUniqueItems(itemSetsWithMinSupportCount);
-
 			prevItemSetsWithMinSupportCount = itemSetsWithMinSupportCount;
 		}
 
@@ -100,7 +99,6 @@ public class Apriori {
 				if (!toReturn.contains(item)) toReturn.add(item);
 			}
 		}
-
 		Collections.sort(toReturn);
 		return toReturn;
 	}
@@ -151,7 +149,6 @@ public class Apriori {
 				}
 
 			}
-
 			return toReturn;
 
 		}
